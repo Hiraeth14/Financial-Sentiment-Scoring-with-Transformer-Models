@@ -5,7 +5,7 @@
 > several **LoRA** variants on a fair, locked-budget protocol, and finish with a live demo that
 > ranks real news headlines from most positive to most negative.
 
-Single-notebook deliverable: [`FTfinbert&all.ipynb`](./FTfinbert&all.ipynb)
+Single-notebook deliverable: [`notebookFT.ipynb`](./notebookFT.ipynb)
 
 ---
 
@@ -120,7 +120,7 @@ drift upward.**
 pip install -U transformers torch datasets accelerate peft \
                scikit-learn pandas numpy matplotlib jupyter
 
-jupyter lab "FTfinbert&all.ipynb"  # then Run All
+jupyter lab "notebookFT.ipynb"  # then Run All
 ```
 
 End-to-end runtime: **~10 min** on an 8 GB+ NVIDIA GPU, **~20–30 min** on Apple Silicon (MPS).
@@ -170,7 +170,7 @@ gracefully (Google News RSS → optional NewsAPI → built-in mini sample), so i
 
 ```
 .
-├── gitversion.ipynb               # main deliverable, run top-to-bottom
+├── notebookFT.ipynb               # main deliverable, run top-to-bottom
 ├── headlines.sample.csv           # offline input for the news-ranking demo
 ├── figures/                       # plots used in this README, exported from notebook outputs
 ├── _fill_table_results.json       # canonical 3-epoch metrics behind the Results table
