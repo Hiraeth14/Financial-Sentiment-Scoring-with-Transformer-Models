@@ -5,7 +5,7 @@
 > several **LoRA** variants on a fair, locked-budget protocol, and finish with a live demo that
 > ranks real news headlines from most positive to most negative.
 
-Single-notebook deliverable: [`gitversion.ipynb`](./gitversion.ipynb) · SI 507 course project.
+Single-notebook deliverable: [`FTfinbert&all.ipynb`](./FTfinbert&all.ipynb)
 
 ---
 
@@ -114,11 +114,13 @@ drift upward.**
 
 ## Quick start
 
+
+
 ```bash
 pip install -U transformers torch datasets accelerate peft \
                scikit-learn pandas numpy matplotlib jupyter
 
-jupyter lab gitversion.ipynb   # then Run All
+jupyter lab "FTfinbert&all.ipynb"  # then Run All
 ```
 
 End-to-end runtime: **~10 min** on an 8 GB+ NVIDIA GPU, **~20–30 min** on Apple Silicon (MPS).
